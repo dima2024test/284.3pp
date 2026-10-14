@@ -2,6 +2,6 @@
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Test_Acc_VR</fullName>
     <active>true</active>
-    <errorConditionFormula>ISCHANGED( TestACC__c )</errorConditionFormula>
+    <errorConditionFormula>CONTAINS( Name , &apos;test&apos;)</errorConditionFormula>
     <errorMessage>TestAcc error</errorMessage>
 </ValidationRule>
