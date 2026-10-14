@@ -2,6 +2,6 @@
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>TestVRule</fullName>
     <active>true</active>
-    <errorConditionFormula>ISCHANGED(TestField__c)</errorConditionFormula>
+    <errorConditionFormula>ISNEW()</errorConditionFormula>
     <errorMessage>Test Error Message</errorMessage>
 </ValidationRule>
